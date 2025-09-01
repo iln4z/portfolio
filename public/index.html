@@ -4,18 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Портфолио frontend-разработчика Ильназа Калимуллина. Современный дизайн, GSAP, анимации, отзывчивый код. ilnaz front ilnaz frontend "
     />
-    <link rel="icon" type="image/png" href="favicon-16.png.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="favicon-32.png.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-64.png.png" sizes="64x64" />
 
+    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-64.png" sizes="64x64" />
+    <link
+      rel="preload"
+      href="/App.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
     <title>ILNAZ FRONT</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript><link rel="stylesheet" href="/App.css" /></noscript>
     <div id="root"></div>
   </body>
 </html>
