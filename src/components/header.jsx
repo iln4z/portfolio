@@ -6,9 +6,7 @@ import BurgerMenu from './BurgerMenu';
 
 function Header() {
     const { t, toggleLanguage, lang } = useLanguage();
-    const handleAnimationComplete = () => {
-        console.log('All letters have animated!');
-    };
+    
     return (
 
         <header>
@@ -26,7 +24,6 @@ function Header() {
                         threshold={0.1}
                         rootMargin="-100px"
                         textAlign="center"
-                        onLetterAnimationComplete={handleAnimationComplete}
                     />
                 </div>
 
@@ -62,7 +59,6 @@ function Header() {
                             threshold={0.5}
                             rootMargin="-100px"
                             textAlign="center"
-                            onLetterAnimationComplete={handleAnimationComplete}
                         />
                     </a>
                     <a href="#projects">
@@ -79,7 +75,6 @@ function Header() {
                             threshold={0.5}
                             rootMargin="-100px"
                             textAlign="center"
-                            onLetterAnimationComplete={handleAnimationComplete}
                         />
                     </a>
                     <a href="#contact">

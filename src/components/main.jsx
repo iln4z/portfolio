@@ -15,9 +15,7 @@ import { useLanguage } from './useLanguage';
 
 function Main() {
 
-    const handleAnimationComplete = () => {
-        console.log('Animation completed!');
-    };
+    
 
     const { t, lang } = useLanguage();
 
@@ -64,7 +62,6 @@ function Main() {
                         delay={250}
                         animateBy="words"
                         direction="top"
-                        onAnimationComplete={handleAnimationComplete}
                         className="text-2xl mb-8 front_class"
                     />
                 </div>
@@ -104,7 +101,7 @@ function Main() {
                 <section className="hero">
                     <div className="main_image">
                         <img className="hero_image"
-                            src="/main.jpg"
+                            src="/newmain.jpg"
                             alt="image-devoloper"
                             loading="lazy"
                         />
@@ -119,7 +116,6 @@ function Main() {
                     delay={250}
                     animateBy="words"
                     direction="top"
-                    onAnimationComplete={handleAnimationComplete}
                     className="text-2xl mb-8 h3 myproject project"
                 />
 
@@ -270,7 +266,6 @@ function Main() {
                     delay={250}
                     animateBy="lends"
                     direction="top"
-                    onAnimationComplete={handleAnimationComplete}
                     className="text-2xl mb-8 h3 myproject"
                 />
                 <FadeUp
@@ -293,7 +288,6 @@ function Main() {
                     delay={250}
                     animateBy="words"
                     direction="top"
-                    onAnimationComplete={handleAnimationComplete}
                     className="text-2xl mb-8 h3 myreviews"
                 />
 
@@ -325,7 +319,6 @@ function Main() {
                     delay={250}
                     animateBy="lends"
                     direction="top"
-                    onAnimationComplete={handleAnimationComplete}
                     className="text-2xl mb-8 h3 about-name "
                 />
 
@@ -369,7 +362,6 @@ function Main() {
                     delay={250}
                     animateBy="words"
                     direction="top"
-                    onAnimationComplete={handleAnimationComplete}
                     className="text-2xl mb-8 h3 about-name"
                 />
                 <div className="whyme-slider">
