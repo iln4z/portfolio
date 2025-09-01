@@ -15,7 +15,7 @@ import { useLanguage } from './useLanguage';
 
 function Main() {
 
-    
+
 
     const { t, lang } = useLanguage();
 
@@ -103,7 +103,7 @@ function Main() {
                         <img className="hero_image"
                             src="/newmain.jpg"
                             alt="image-devoloper"
-                            loading="lazy"
+                            fetchPriority='high'
                         />
                     </div>
                 </section>
