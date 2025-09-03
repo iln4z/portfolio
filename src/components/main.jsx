@@ -130,13 +130,41 @@ function Main() {
                     >
                         <div className="container">
                             <a
+                                href="https://ilnazfront.site"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="Open the project in a new tab"
+                            >
+                                <img className="container-image"
+                                    src="/front900x500.png"
+                                    alt="portfolio"
+                                    loading="lazy"
+                                />
+                                <div className="name-proj">
+                                    <p className="hashtag">
+                                        #React #Gsap #TypeScript #CSSModules
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </FadeUp>
+                    <FadeUp
+                        start="top 15%"
+                        rootMargin="50px"
+                        duration={3}
+                        ease="power3.out"
+                        fromY={150}
+
+                    >
+                        <div className="container">
+                            <a
                                 href="https://iln4z.github.io/SCAN-Publications-Finder-React-API-page/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 title="Open the project in a new tab"
                             >
                                 <img className="container-image"
-                                    src="/скан.jpg"
+                                    src="/scan 9x5.png"
                                     alt="image-project"
                                     loading="lazy"
                                 />
@@ -164,7 +192,7 @@ function Main() {
                                 title="Open the project in a new tab"
                             >
                                 <img className="container-image"
-                                    src="/слайдер.jpg"
+                                    src="/slider 9x5.png"
                                     alt="image-project"
                                     loading="lazy"
                                 />
@@ -177,7 +205,7 @@ function Main() {
                         </div>
                     </FadeUp>
                     <FadeUp
-                        start="top 5%"
+                        start="top 15%"
                         rootMargin="50px"
                         duration={3}
                         ease="power3.out"
@@ -191,7 +219,7 @@ function Main() {
                                 title="Open the project in a new tab"
                             >
                                 <img className="container-image"
-                                    src="/авиа.jpg"
+                                    src="/air 9x5.png"
                                     alt="image-project"
                                     loading="lazy"
                                 />
@@ -218,7 +246,7 @@ function Main() {
                                 title="Open the project in a new tab"
                             >
                                 <img className="container-image"
-                                    src="/канбан.jpg"
+                                    src="/kanban 9x5.png"
                                     alt="image-project"
                                     loading="lazy"
                                 />
@@ -245,7 +273,7 @@ function Main() {
                                 title="Open the project in a new tab"
                             >
                                 <img className="container-image"
-                                    src="/ютолк.jpg"
+                                    src="/utolk 9x5.png"
                                     alt="image-project"
                                     loading="lazy"
                                 />
